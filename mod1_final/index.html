@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
+<title>My HTML project</title>
+</head>
+
+<body>
+<h2 class="fs-1 text-center bg-dark text-light">Welcome to My World!</h2>
+
+<!--Navbar-->
+<nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-center">
+      <button class="btn btn-outline-success me-2" type="button">
+        <a href="#home" class="text-dark link-light" style="text-decoration: none;">Home</a></button>
+      <button class="btn btn-outline-success me-2" type="button">
+        <a href="#facts" class="text-dark link-light" style="text-decoration: none;">General facts</a></button>
+      <button class="btn btn-outline-success me-2" type="button">
+        <a href="#hobbies" class="text-dark link-light" style="text-decoration: none;">Hobbies</a></button>
+      <button class="btn btn-outline-success me-2" type="button">
+        <a href="#education" class="text-dark link-light" style="text-decoration: none;">Education/Dreams</a></button>
+    </form>
+</nav>
+
+<!--Homepage-->
+<div class="container" id="home">
+    <p class="text-center fs-3 text-light bg-dark">Hello! Welcome to my personal HTML webpage!</p>
+    <p class="text-center">Hi there! My name is Kieran, and I am here to inform you about all about me! So, use that nav bar up top,
+        and read up on my background and life! I hope to show you how I ended up here, and why I am doing what I am doing.
+    </p>
+    <img src="static/birthday.jpg" class="rounded mx-auto d-block" alt="me">
+</div>
+<br>
+<hr>
+<br>
+
+<!--Facts-->
+<div class="container">
+    <h2 class="fs-1 text-center text-light bg-dark" id="facts">General Facts</h2>
+        <div class="row align-items-center">
+            <div class="col">
+                <ul class="text-start fs-5">
+                    <li>Born: March 15th, 2004</li>
+                    <li>I have 3 brothers</li>
+                    <li>I live in Wisconsin, born and raised</li>
+                    <li>I've been on an old priate ship before</li>
+                    <li>I am a dual physics and mathematics major at UW-Oshkosh</li>
+                    <li>I can speak a good bit of Irish</li>
+                </ul>
+            </div>
+            <div class="col">
+                <img src="static/Us as kids.jpg" alt="Me as a child">
+            </div>
+            <div class="col">
+                <p class="fs-5">I am only 19 years old, and I am looking at moving to Ireland! That is why I signed up for Coding Temple.
+                    I came looking for a better life, and to take off some years from college. I hope to one day get a Ph.D. in Astrophysics and
+                    do research and teach the world about the beauty of the universe. I enjoy coding, and learning how to code; I view it as one great big
+                    math eqution. Plug in some numbers and variables, then enter in your data. Suddenly, you have a whole functioning program! I digress as I could go on and on.
+                </p>
+            </div>
+        </div>
+</div>
+<br>
+<hr>
+
+<!--Hobbies-->
+<div class="container" id="hobbies">
+    <h2 class="fs-2 text-dark bg-light text-center">My Hobbies</h2>
+    <br>
+    <p class="text-start">Some of my favorite hobbies include:</p>
+    <ul class="text-start">
+        <li>I love to be outside and doing sportman sports(Trap shooting, Fishing, swimming)</li>
+        <li>I play a lot of video games, I grew up playing them and they always have been extremely fun for me. One of my favorite games is Destiny, and favorite single player games is God of war.</li>
+        <li>I listen to a lot of music and podcasts. My favorite music is modern Irish/Celtic music, and my favorite podcasts are ones about cults, the supernatural, and things pretaining to theology.</li>
+        <li>Reading and writing are a great pass time for me. One of the best authors out there is H.P. Lovecraft, and reading philosophy is also very fun to me.</li>
+        <li>Last but not least is Mixed Martial Arts. Practicing, comnpeting, watching, and studying MMA has been one of the best hobbies I decided to pick up.</li>
+    </ul>
+
+    <br>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="static/Snapchat-1365833561.jpg" class="d-block w-100" alt="Me catching a Smallmouth Bass">
+          </div>
+          <div class="carousel-item">
+            <img src="static/20220825_180603.jpg" class="d-block w-100" alt="Myself at the Martial Arts gym">
+          </div>
+          <div class="carousel-item">
+            <img src="static/final shape.jpg" class="d-block w-100" alt="Destiny 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<br>
+<hr>
+
+<!--Education-->
+<div class="container bg-dark">
+    <h1 class="fs-1 text-center text-light bg-dark" id="education">Education/Future Career</h1>
+    <p class="text-light text-center">My education is a couple of years at UW-Oshkosh. I studied physics and mathematics as my majors, and study Irish on my own.</p>
+    <p class="text-center text-light">By the finishing of this website on 8/23/23; I haven't finished from coding temple, but with some willpower, hopefully only after 6 or weeks I'll be finished with it!</p>
+    <p class="text-center text-light">I want to pursue a Ph.D. in Astrophysics in some years time. Space has been a passion of mine for a few years now, and I have already done research under Nadia Kaltcheva.</p>
+    <img src="static/Snapchat-1031630520.jpg" alt="Lots of Math" class="justify-content-center">
+    <p class="fs-3 text-light">This is some of the math and problem solving involved in my stuides. Yes I don't sleep and I drink enough caffeine to kill elephants</p>
+</div>
+
+<!--Footer-->
+<footer>
+    <div class="container bg-dark">
+    <p class="text-center text-light bg-dark">Webpage made by Kieran Larson</p> 
+    <p class="text-center text-light bg-dark">last updated 8/23/23</p>
+    <p class="text-center text-light bg-dark">subject to change and updating as newer skills and more tools come to light.</p></div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
